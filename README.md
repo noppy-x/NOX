@@ -9,6 +9,8 @@ Built for **ElevenHacks #6** — Zed + ElevenLabs.
 ## play
 → [noppy-x.github.io/NOX/nox.html](https://noppy-x.github.io/NOX/nox.html)
 
+![NOX](NOX_thumbnail.png)
+
 ## design
 NOX is brutalist by intention. No music. No ambient noise. No visual comfort.
 The maze goes dark 4 seconds in — and stays dark.
