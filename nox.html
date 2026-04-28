@@ -1198,9 +1198,9 @@ const AUDIO_ESCAPED='data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU5L
 
             function getAudioCtx() {
                 if (!audioCtx)
-                    audioCtx = new (
-                        window.AudioContext || window.webkitAudioContext
-                    )();
+                    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                if (audioCtx.state === 'suspended')
+                    audioCtx.resume();
                 return audioCtx;
             }
 
@@ -1255,6 +1255,7 @@ const AUDIO_ESCAPED='data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU5L
             }
 
             function playVoiceAwaken() {
+                if (state.screen !== 'play') return;
                 generateVoiceLine("I hear you.", "nox_voice_awaken");
             }
             function playVoiceCaught() {
