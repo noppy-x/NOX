@@ -7,7 +7,7 @@ A horror maze game where sound is everything. Collect fuses, find the exit, don'
 Built for **ElevenHacks #6** — Zed + ElevenLabs.
 
 ## play
-→ [noppy-x.github.io/NOX/nox.html](https://noppy-x.github.io/NOX/nox.html)
+→ [noppy-x.itch.io/nox](https://noppy-x.itch.io/nox)
 
 ![NOX](NOX_thumbnail.png)
 
