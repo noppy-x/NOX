@@ -2380,7 +2380,7 @@ const AUDIO_ESCAPED='data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU5L
                         2,
                         "0",
                     );
-                    const text = `escaped NOX with ${state.flickersUsed} flickers used.\nthe lights went out 4 seconds ago.\n\ncan you do better?\nplay → [url]`;
+                    const text = `escaped NOX with ${state.flickersUsed} flickers used.\nthe lights went out 4 seconds ago.\n\ncan you do better?\nplay → https://noppy-x.itch.io/nox`;
                     navigator.clipboard?.writeText(text).then(() => {
                         document.getElementById("btn-share").textContent =
                             "[ copied ]";
